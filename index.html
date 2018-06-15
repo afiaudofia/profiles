@@ -2,8 +2,20 @@
 <html>
   <head>
     <title>My Profile</title>
+    <script src="https://unpkg.co/npm-require"></script>
   </head>
   <body>
-    
+    <script>
+      var minixhr = require('minixhr')
+      minixhr(location.href + '/config.json', json => {
+        var data = JSON.parse(json)
+        console.log(data)
+        var profile = document.createElement('div')
+        profile.innerHTML = `
+          <h1> ${data.name} </h1>
+          <p> ${json} </p>`
+        document.body.appendChild(profile)
+      })
+    </script>
   </body>
 </html>
