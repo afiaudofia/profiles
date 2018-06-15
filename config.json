@@ -1,23 +1,27 @@
 {
-  "username": "johndoe91",
-  "name": "John Doe",
+  "username": "sirwhite2",
+  "name": "Afia Udofia",
   "projects": [
-    "http://github.com/john91doe/profiles",
-    "http://github.com/john91doe/i-learn-css-flexbox",
-    "http://github.com/john91doe/my-webpage"
+    "http://github.com/sirwhite2/profiles"
   ],
   "background":[
-    "A graduate student from NTUT Interaction Design Dept",
+    "Software Engineer",
     "Front-end",
-    "Javascript 1 year",
-    "HTML 2 months",
-    "CSS 3 months",
-    "SASS 2 months"
+    "Javascript 4 year",
+    "jQuery 2 years",
+    "HTML 13 years",
+    "CSS 13 years",
+    "React 1 year",
+    "Laravel PHP Framework 2 years"
   ],
   "interests":[
-    "JavaScript (how to build web, desktop and mobile apps)",
-    "Remote Gigs/Jobs (forming a local agency/cooperative (as an app)"
+    "Webpack",
+    "Nodejs",
+    "Preact",
+    "Python",
+    "Blockchain",
+    "Remote Gigs/Jobs"
   ],
-  "twitter": "http://twitter.com/johndoe91",
-  "github": "http://github.com/john91doe"
+  "twitter": "http://twitter.com/afiaudofia",
+  "github": "http://github.com/sirwhite2"
 }
