@@ -1,0 +1,32 @@
+.watercolor-btn {
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 100px;
+    transform: rotate(45deg);
+    margin: 50px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 2px 2px 4px 0px #e0e0e0;
+    
+    .link {
+      display: block;
+      color: blue;
+      text-decoration: none;
+      transform: rotate(-45deg);
+      transition: all 0.25s ease-in-out;
+    }
+    
+    &:hover {
+      background-color: purple;
+      transform: rotate(90deg);
+      
+      .link {
+        transform: rotate(-90deg);
+        color: white;
+      }
+    }
+  }
