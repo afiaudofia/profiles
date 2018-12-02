@@ -1,0 +1,40 @@
+.watercolor-btn {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 100px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin: 50px;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-box-shadow: 2px 2px 4px 0px #e0e0e0;
+          box-shadow: 2px 2px 4px 0px #e0e0e0;
+}
+
+.watercolor-btn .link {
+  display: block;
+  color: blue;
+  text-decoration: none;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.watercolor-btn:hover {
+  background-color: purple;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.watercolor-btn:hover .link {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: white;
+}
+/*# sourceMappingURL=button.css.map */
