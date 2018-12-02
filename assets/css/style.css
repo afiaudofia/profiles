@@ -65,11 +65,11 @@ body {
 }
 
 .badge-success {
-  background: "#7819ec";
+  background: #7819ec;
 }
 
 .btn-primary {
-  background: "#7819ec";
+  background: #7819ec;
   border: none;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .modal {
-  background-image: linear-gradient(120deg, #764ba2 80%, "#7819ec" 100%);
+  background-image: linear-gradient(120deg, #764ba2 80%, #7819ec 100%);
 }
 
 .contact-box {
@@ -127,7 +127,7 @@ body {
           box-shadow: 0px 0px 30px 0px #c0c0c0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-left: 2px solid "#7819ec";
+  border-left: 2px solid #7819ec;
 }
 
 .sidenav .skills {
@@ -180,7 +180,7 @@ body {
 }
 
 .footer a {
-  color: "#7819ec";
+  color: #7819ec;
   text-decoration: underline;
   -webkit-text-decoration-style: dashed;
           text-decoration-style: dashed;
